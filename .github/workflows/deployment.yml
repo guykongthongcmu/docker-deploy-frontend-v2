@@ -42,7 +42,7 @@ jobs:
           target: "/home/ubuntu/frontend"
 
       - name: Docker compose
-        uses: applyboy/ssh-action@v1.2.4
+        uses: appleboy/ssh-action@v1.2.4
         with:
           host: ${{ secrets.HOST_SERVER }}
           username: ${{ secrets.HOST_USER_NAME }}
